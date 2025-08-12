@@ -1,5 +1,5 @@
 <template>
-  <div class="h-[100vh] bg-black/90 flex flex-col justify-center">
+  <div class="h-[100vh] bg-[url('@/assets/photo/backgroundHero.jpg')] bg-cover bg-center flex flex-col pt-30">
     <h1 class="text-white mx-6 text-center pb-4 text-2xl">Unlock a <strong class="text-green-600 font-bold">new way to connect</strong>, <strong class="text-green-600 font-bold">express</strong>, and <strong class="text-green-600 font-bold">understand others</strong></h1>
 
     <p class="text-white text-center mx-6 text-[10px]">Learn sign language with clarity and purpose. Build real connections, express yourself fully, and understand others in a more meaningful way.</p>
