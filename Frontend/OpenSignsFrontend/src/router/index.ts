@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import HeroSection from '@/view/HeroSection.vue'
-import DashboardSection from '@/view/DashboardSection.vue'
+import LogSignInSection from '@/view/LogSignInSection.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,9 +12,9 @@ const router = createRouter({
       component: HeroSection,
     },
     {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: DashboardSection
+      path: '/authentication',
+      name: 'authentication',
+      component: LogSignInSection
     }
   ],
 })

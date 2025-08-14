@@ -4,7 +4,7 @@
 
     <p class="text-white text-center mx-6 sm:mx-14 lg:mx-30 2xl:mr-0 text-[10px] md:text-[12px] lg:text-sm 2xl:text-lg">Learn sign language with clarity and purpose. Build real connections, express yourself fully, and understand others in a more meaningful way.</p>
 
-    <router-link class="m-8 p-4 md:p-6 lg:p-8 2xl:p-12 lg:mr-55 lg:ml-55 bg-green-700 text-white md:text-lg lg:text-xl 2xl:text-3xl font-bold rounded-xl shadow-2xl shadow-green-900 text-center transition active:scale-120 active:translate-y-4 hover:-translate-y-2" to="/dashboard">
+    <router-link class="m-8 p-4 md:p-6 lg:p-8 2xl:p-12 lg:mr-55 lg:ml-55 bg-green-700 text-white md:text-lg lg:text-xl 2xl:text-3xl font-bold rounded-xl shadow-2xl shadow-green-900 text-center transition active:scale-120 active:translate-y-4 hover:-translate-y-2" to="/authentication">
       <button>Start now!</button>
     </router-link>
   </div>
